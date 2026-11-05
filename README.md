@@ -15,7 +15,7 @@ Each plugin is also installable on its own in any agent that reads `SKILL.md`: `
 <!-- plugins:start -->
 | Plugin | What it does | Install |
 |---|---|---|
-| [procureur](https://github.com/provenwork/procureur) | Make your coding agent prove its work. | `/plugin install procureur@provenwork` |
+| [nobluff](https://github.com/provenwork/nobluff) | Your coding agent stops saying "done" until it's proven. | `/plugin install nobluff@provenwork` |
 <!-- plugins:end -->
 
 MIT. Every plugin states what it does not do; read that section before installing.

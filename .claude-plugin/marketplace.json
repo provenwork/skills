@@ -9,12 +9,12 @@
   },
   "plugins": [
     {
-      "name": "procureur",
+      "name": "nobluff",
       "source": {
         "source": "github",
-        "repo": "provenwork/procureur"
+        "repo": "provenwork/nobluff"
       },
-      "description": "Make your coding agent prove its work.",
+      "description": "Your coding agent stops saying \"done\" until it's proven.",
       "version": "0.1.0"
     }
   ]

@@ -1,0 +1,21 @@
+{
+  "name": "provenwork",
+  "owner": {
+    "name": "provenwork",
+    "url": "https://github.com/provenwork"
+  },
+  "metadata": {
+    "description": "Agent skills that make coding agents prove their work."
+  },
+  "plugins": [
+    {
+      "name": "procureur",
+      "source": {
+        "source": "github",
+        "repo": "provenwork/procureur"
+      },
+      "description": "Make your coding agent prove its work.",
+      "version": "0.1.0"
+    }
+  ]
+}

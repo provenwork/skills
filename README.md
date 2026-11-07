@@ -16,6 +16,7 @@ Each plugin is also installable on its own in any agent that reads `SKILL.md`: `
 | Plugin | What it does | Install |
 |---|---|---|
 | [nobluff](https://github.com/provenwork/nobluff) | Your coding agent stops saying "done" until it's proven. | `/plugin install nobluff@provenwork` |
+| [toskill](https://github.com/provenwork/toskill) | Turn any repository into an agent skill: digest the docs, lint the SKILL.md, prepare the upstream PR. | `/plugin install toskill@provenwork` |
 <!-- plugins:end -->
 
 MIT. Every plugin states what it does not do; read that section before installing.

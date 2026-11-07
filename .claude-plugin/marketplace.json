@@ -24,7 +24,7 @@
         "repo": "provenwork/toskill"
       },
       "description": "Turn any repository into an agent skill: digest the docs, lint the SKILL.md, prepare the upstream PR.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

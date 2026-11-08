@@ -5,7 +5,7 @@
     "url": "https://github.com/provenwork"
   },
   "metadata": {
-    "description": "Agent skills that make coding agents prove their work."
+    "description": "Local transcript checks and human-reviewed agent workflows with explicit limits."
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
         "source": "github",
         "repo": "provenwork/nobluff"
       },
-      "description": "Your coding agent stops saying \"done\" until it's proven.",
+      "description": "Deterministic transcript consistency heuristics and optional agent skills.",
       "version": "0.4.0"
     },
     {
@@ -23,7 +23,7 @@
         "source": "github",
         "repo": "provenwork/toskill"
       },
-      "description": "Turn any repository into an agent skill: digest the docs, lint the SKILL.md, prepare the upstream PR.",
+      "description": "Bounded repository digest, skill metadata review and human-reviewed contribution preparation.",
       "version": "0.1.1"
     }
   ]

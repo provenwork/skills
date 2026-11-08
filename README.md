@@ -1,22 +1,24 @@
 # provenwork skills
 
-**Agent skills that make coding agents prove their work.** One marketplace, every provenwork plugin.
+**Local verification tools and optional agent workflows.**
 
-```bash
-# Claude Code
+```text
 /plugin marketplace add provenwork/skills
-/plugin install <plugin>@provenwork
+/plugin install nobluff@provenwork
+/plugin install toskill@provenwork
 ```
 
-Each plugin is also installable on its own in any agent that reads `SKILL.md`: `npx skills add provenwork/<plugin>`.
-
-## Plugins
+## Components
 
 <!-- plugins:start -->
-| Plugin | What it does | Install |
+| Plugin | Scope | Install |
 |---|---|---|
-| [nobluff](https://github.com/provenwork/nobluff) | Your coding agent stops saying "done" until it's proven. | `/plugin install nobluff@provenwork` |
-| [toskill](https://github.com/provenwork/toskill) | Turn any repository into an agent skill: digest the docs, lint the SKILL.md, prepare the upstream PR. | `/plugin install toskill@provenwork` |
+| [nobluff](https://github.com/provenwork/nobluff) | Deterministic transcript heuristics and a Claude Code Stop hook; not a guarantee of correct code. Other agents receive text skills only. | `/plugin install nobluff@provenwork` |
+| [toskill](https://github.com/provenwork/toskill) | Bounded repository digest, supported skill metadata checks and contribution commands for human review. | `/plugin install toskill@provenwork` |
 <!-- plugins:end -->
 
-MIT. Every plugin states what it does not do; read that section before installing.
+Each product documents its installation, removal, limitations and tested examples. A catalogue entry is not proof of effectiveness. No telemetry or transcript upload is added by this catalogue.
+
+The corrective local source candidates NoBluff 0.4.1 and toskill 0.1.2 are not registry releases yet. Catalogue versions remain at the last recorded public versions until those releases are verified. Do not publish the catalogue ahead of its products.
+
+MIT.

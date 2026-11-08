@@ -1,6 +1,6 @@
 # provenwork skills
 
-**Local verification tools and optional agent workflows.**
+**Tools that make AI coding agents trustworthy.**
 
 ```text
 /plugin marketplace add provenwork/skills
@@ -8,17 +8,13 @@
 /plugin install toskill@provenwork
 ```
 
-## Components
-
 <!-- plugins:start -->
-| Plugin | Scope | Install |
+| Plugin | What you get | Install |
 |---|---|---|
-| [nobluff](https://github.com/provenwork/nobluff) | Deterministic transcript heuristics and a Claude Code Stop hook; not a guarantee of correct code. Other agents receive text skills only. | `/plugin install nobluff@provenwork` |
-| [toskill](https://github.com/provenwork/toskill) | Bounded repository digest, supported skill metadata checks and contribution commands for human review. | `/plugin install toskill@provenwork` |
+| [nobluff](https://github.com/provenwork/nobluff) | Find out how often your agent said "tests pass" when nothing ran, then block it in Claude Code. | `/plugin install nobluff@provenwork` |
+| [toskill](https://github.com/provenwork/toskill) | Make any repository usable by AI agents: digest it, lint the skill, prepare the pull request. | `/plugin install toskill@provenwork` |
 <!-- plugins:end -->
 
-Each product documents its installation, removal, limitations and tested examples. A catalogue entry is not proof of effectiveness. No telemetry or transcript upload is added by this catalogue.
-
-The corrective local source candidates NoBluff 0.4.1 and toskill 0.1.2 are not registry releases yet. Catalogue versions remain at the last recorded public versions until those releases are verified. Do not publish the catalogue ahead of its products.
+Each plugin's README states its limits and how to reproduce its checks. No telemetry: nothing is uploaded.
 
 MIT.

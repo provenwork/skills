@@ -14,8 +14,8 @@
         "source": "github",
         "repo": "provenwork/nobluff"
       },
-      "description": "Deterministic transcript consistency heuristics and optional agent skills.",
-      "version": "0.4.0"
+      "description": "Find out how often your coding agent said \"tests pass\" when nothing ran, then block it in Claude Code.",
+      "version": "0.4.1"
     },
     {
       "name": "toskill",
@@ -23,8 +23,8 @@
         "source": "github",
         "repo": "provenwork/toskill"
       },
-      "description": "Bounded repository digest, skill metadata review and human-reviewed contribution preparation.",
-      "version": "0.1.1"
+      "description": "Make any repository usable by AI agents: digest it, lint the skill, prepare the pull request.",
+      "version": "0.1.3"
     }
   ]
 }

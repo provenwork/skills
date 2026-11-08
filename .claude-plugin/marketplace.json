@@ -11,17 +11,17 @@
     {
       "name": "nobluff",
       "source": {
-        "source": "github",
-        "repo": "provenwork/nobluff"
+        "source": "url",
+        "url": "https://github.com/provenwork/nobluff.git"
       },
       "description": "Find out how often your coding agent said \"tests pass\" when nothing ran, then block it in Claude Code.",
-      "version": "0.4.1"
+      "version": "0.4.2"
     },
     {
       "name": "toskill",
       "source": {
-        "source": "github",
-        "repo": "provenwork/toskill"
+        "source": "url",
+        "url": "https://github.com/provenwork/toskill.git"
       },
       "description": "Make any repository usable by AI agents: digest it, lint the skill, prepare the pull request.",
       "version": "0.1.3"

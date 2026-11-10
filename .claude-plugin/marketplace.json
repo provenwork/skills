@@ -15,7 +15,7 @@
         "url": "https://github.com/provenwork/nobluff.git"
       },
       "description": "Find out how often your coding agent said \"tests pass\" when nothing ran, then block it in Claude Code.",
-      "version": "0.4.5"
+      "version": "0.4.6"
     },
     {
       "name": "toskill",
